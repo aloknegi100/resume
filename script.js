@@ -1,6 +1,12 @@
+document.getElementById("nav").addEventListener("click", function (e) {
+  document.getElementById("menu").style.display = "flex";
+});
+
 document
   .getElementsByClassName("c")[0]
   .addEventListener("click", function (event) {
+    document.getElementById("menu").style.display = "none";
+
     let d = document.getElementById("about").getBoundingClientRect().top;
     event.preventDefault();
     let x = 0;
@@ -11,9 +17,12 @@ document
       }
     }, 10);
   });
+
 document
   .getElementsByClassName("c")[1]
   .addEventListener("click", function (event) {
+    document.getElementById("menu").style.display = "none";
+
     let d = document
       .getElementById("skills-display")
       .getBoundingClientRect().top;
@@ -29,6 +38,8 @@ document
 document
   .getElementsByClassName("c")[2]
   .addEventListener("click", function (event) {
+    document.getElementById("menu").style.display = "none";
+
     let d = document
       .getElementById("workexperience")
       .getBoundingClientRect().top;
@@ -44,6 +55,8 @@ document
 document
   .getElementsByClassName("c")[3]
   .addEventListener("click", function (event) {
+    document.getElementById("menu").style.display = "none";
+
     let d = document.getElementById("education").getBoundingClientRect().top;
     event.preventDefault();
     let x = 0;
@@ -57,6 +70,8 @@ document
 document
   .getElementsByClassName("c")[4]
   .addEventListener("click", function (event) {
+    document.getElementById("menu").style.display = "none";
+
     let d = document
       .getElementById("portfolio-container")
       .getBoundingClientRect().top;
@@ -73,6 +88,8 @@ document
 document
   .getElementsByClassName("c")[5]
   .addEventListener("click", function (event) {
+    document.getElementById("menu").style.display = "none";
+
     let d = document.getElementById("contactlinks").getBoundingClientRect().top;
     event.preventDefault();
     let x = 0;
