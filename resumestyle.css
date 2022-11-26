@@ -537,6 +537,9 @@ footer h1 {
   right: 85%;
   background-size: contain;
 }
+#contactlinks {
+  padding-bottom: 100px;
+}
 
 @media screen and (max-width: 800px) {
   #timeline-divider {
