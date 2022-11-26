@@ -185,7 +185,7 @@ main p {
 }
 
 #c {
-  width: 65%;
+  width: 85%;
   height: inherit;
   border-radius: 20px 0px 0px 20px;
   background-color: #2857a4;
@@ -204,26 +204,50 @@ main p {
   border-radius: 20px 0px 0px 20px;
   background-color: rgb(151, 110, 117);
 }
+#dsa {
+  width: 80%;
+  height: inherit;
+  border-radius: 20px 0px 0px 20px;
+  background-color: rgb(151, 110, 117);
+}
 
 #javascript {
-  width: 55%;
+  width: 85%;
   height: inherit;
   border-radius: 20px 0px 0px 20px;
   background-color: rgba(75, 56, 60, 0.855);
 }
 
 #nodejs {
-  width: 55%;
+  width: 80%;
   height: inherit;
   border-radius: 20px 0px 0px 20px;
   background-color: #2460c0;
 }
 
 #mangodb {
-  width: 55%;
+  width: 80%;
   height: inherit;
   border-radius: 20px 0px 0px 20px;
   background-color: rgb(151, 110, 117);
+}
+#react {
+  width: 80%;
+  height: inherit;
+  border-radius: 20px 0px 0px 20px;
+  background-color: rgb(151, 110, 117);
+}
+#oops {
+  width: 80%;
+  height: inherit;
+  border-radius: 20px 0px 0px 20px;
+  background-color: rgb(135, 151, 110);
+}
+#express {
+  width: 80%;
+  height: inherit;
+  border-radius: 20px 0px 0px 20px;
+  background-color: rgb(110, 151, 110);
 }
 
 .skill-section > div > div > span {
@@ -441,7 +465,7 @@ footer h1 {
 
 .comment:nth-child(odd)::after {
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 110.95%;
   content: "";
   width: 1rem;
@@ -475,6 +499,7 @@ footer h1 {
 }
 
 .comment h4 {
+  margin-top: 125px;
   color: #2857a4;
   text-align: end;
 }

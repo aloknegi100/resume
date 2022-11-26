@@ -5,7 +5,7 @@ document.getElementById("nav").addEventListener("click", function (e) {
 document
   .getElementsByClassName("c")[0]
   .addEventListener("click", function (event) {
-    document.getElementById("menu").style.display = "none";
+    // document.getElementById("menu").style.display = "none";
 
     let d = document.getElementById("about").getBoundingClientRect().top;
     event.preventDefault();
@@ -21,7 +21,7 @@ document
 document
   .getElementsByClassName("c")[1]
   .addEventListener("click", function (event) {
-    document.getElementById("menu").style.display = "none";
+    // document.getElementById("menu").style.display = "none";
 
     let d = document
       .getElementById("skills-display")
@@ -38,7 +38,7 @@ document
 document
   .getElementsByClassName("c")[2]
   .addEventListener("click", function (event) {
-    document.getElementById("menu").style.display = "none";
+    // document.getElementById("menu").style.display = "none";
 
     let d = document
       .getElementById("workexperience")
@@ -55,7 +55,7 @@ document
 document
   .getElementsByClassName("c")[3]
   .addEventListener("click", function (event) {
-    document.getElementById("menu").style.display = "none";
+    // document.getElementById("menu").style.display = "none";
 
     let d = document.getElementById("education").getBoundingClientRect().top;
     event.preventDefault();
@@ -70,7 +70,7 @@ document
 document
   .getElementsByClassName("c")[4]
   .addEventListener("click", function (event) {
-    document.getElementById("menu").style.display = "none";
+    // document.getElementById("menu").style.display = "none";
 
     let d = document
       .getElementById("portfolio-container")
@@ -88,7 +88,7 @@ document
 document
   .getElementsByClassName("c")[5]
   .addEventListener("click", function (event) {
-    document.getElementById("menu").style.display = "none";
+    // document.getElementById("menu").style.display = "none";
 
     let d = document.getElementById("contactlinks").getBoundingClientRect().top;
     event.preventDefault();
